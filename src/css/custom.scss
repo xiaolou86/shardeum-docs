@@ -1,0 +1,42 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+ @import 'satoshi';
+ 
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2031E6; /**Blue 700*/
+  --ifm-color-primary-dark: #0029DD; /**Blue 800*/
+  --ifm-color-primary-darker: #0022B8; /**Blue 900*/
+  --ifm-color-primary-darkest: #00177A; /**Blue 1000*/
+  --ifm-color-primary-light: #4150EA; /**Blue 600*/
+  --ifm-color-primary-lighter: #C9CDF9; /**Blue 200*/
+  --ifm-color-primary-lightest: #DCDEFA; /**Blue 100*/
+  --ifm-code-font-size: 95%;
+  --ifm-footer-background-color: #000000;
+  --ifm-footer-title-color: #FAFAFA;
+  --ifm-footer-link-color: #9E9E9E;
+  --ifm-footer-link-hover-color: #E0E0E0;
+  --ifm-footer-color: #9E9E9E;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Satoshi-Variable, Roboto;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}

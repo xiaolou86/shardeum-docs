@@ -5,7 +5,7 @@
  */
 
  @import 'satoshi';
- 
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2031E6; /**Blue 700*/
@@ -39,4 +39,8 @@ body {
 
 [data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+img[alt*="adding_shardeum_1"], img[alt*="create_account_1"], img[alt*="create_account_2"], img[alt*="sending_transactions_2"], img[alt*="sending_transactions_3"], img[alt*="sending_transactions_4"]  {
+   width: 50%;
 }

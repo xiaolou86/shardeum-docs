@@ -1,5 +1,5 @@
 ---
-title: Alphanet Opcodes
+title: Shardeum Liberty Opcodes
 sidebar_position: 2
 ---
 

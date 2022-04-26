@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # Alphanet 1.0 Opcodes
 
-Shardeum is EVM-based, this means most opcodes should function identically to other EVM-based networks. Alphanet 1.0 will not support any block related opcodes, this is because Shardeum is blockless. These opcodes will be re-mapped and become operational in Alphanet 1.1.
+Shardeum is EVM-based, this means most opcodes should function identically to other EVM-based networks. Shardeum Liberty 1.0 will not support any block related opcodes, this is because Shardeum is blockless. These opcodes will be re-mapped and become operational in Shardeum Liberty 1.1.
 
 ## Block Related Opcodes
 

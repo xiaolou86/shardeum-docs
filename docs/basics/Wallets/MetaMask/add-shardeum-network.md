@@ -5,13 +5,13 @@ sidebar_position: 3
 
 ## Adding Shardeum Network to MetaMask
 
-Open MetaMask and click the list of networks at the top, then select "Add Network".
+1, Open MetaMask and click the list of networks at the top, then select "Add Network".
 
 ![adding_shardeum_1](/img/adding_shardeum/adding_shardeum_1.png)
 
 ## Fill the Endpoint Information
 
-Input the endpoint information (copy from table below).
+2, Input the endpoint information (copy from table below).
 
 ![adding_shardeum_2](/img/adding_shardeum/adding_shardeum_2.png)
 
@@ -27,6 +27,6 @@ Input the endpoint information (copy from table below).
 
 ## Save the Network
 
-Click save.
+3, Click save.
 
 ![adding_shardeum_3](/img/adding_shardeum/adding_shardeum_3.png)

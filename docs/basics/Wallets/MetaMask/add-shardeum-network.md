@@ -17,13 +17,13 @@ sidebar_position: 3
 
 ## Endpoint Information
 
-| **Field**                         	| **Alphanet**               	| **Betanet** 	| **Mainnet** 	|
-|-----------------------------------	|----------------------------	|-------------	|-------------	|
-| **Network Name**                  	| Shardeum Liberty 1.0      	|   Q3 2022   	|   Q4 2022   	|
-| **New RPC URL**                   	| http://liberty10.shardeum.org:8080/                       	|   Q3 2022   	|   Q4 2022   	|
-| **Chain ID**                      	| 8080                        	|   Q3 2022   	|   Q4 2022   	|
-| **Currency symbol (optional)**    	| SHM                       	|   Q3 2022   	|   Q4 2022   	|
-| **Block Explorer URL (optional)** 	| http://explorer.liberty10.shardeum.org:5555/ 	|   Q3 2022   	|   Q4 2022   	|
+| **Field**                         	| **Alphanet**               	
+|-----------------------------------	|----------------------------
+| **Network Name**                  	| Shardeum Liberty 1.0      	
+| **New RPC URL**                   	| http://liberty10.shardeum.org:8080/                     
+| **Chain ID**                      	| 8080                        	
+| **Currency symbol (optional)**    	| SHM                       	
+| **Block Explorer URL (optional)** 	| http://explorer.liberty10.shardeum.org:5555/ 	
 
 ## Save the Network
 

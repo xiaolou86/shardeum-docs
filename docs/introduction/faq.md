@@ -29,7 +29,7 @@ Shardeum Liberty will be accessible to the public. You just need to configure th
 
 ## What rewards can I expect if I build DApps on Shardeum Liberty?
 
-There will be an ecosystem fund setup to reward devs for creating innovative apps on Shardeum. You would be able to apply for a grant. More information will be posted on the Shardeum.org site about the process to apply.
+We've planned for an ecosystem fund setup to reward devs for creating innovative apps on Shardeum. You would be able to apply for a grant. More information will be posted on the Shardeum.org site about the process to apply.
 
 ## I have developed apps on Ethereum. How can I easily migrate them to Shardeum Liberty?
 

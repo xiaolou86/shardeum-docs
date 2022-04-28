@@ -132,3 +132,23 @@ TypeScript + Rust.
 ## What is the Governance model of Shardeum?
 
 Swiss based Shardeum Foundation will support the development of the project. As of 14th April 2022, Foundation has been set up successfully. The long term goal is to transition Shardeum into a DAO. Various forms of DAO governance are currently being experimented with by many DAO projects. In the future DAOs will become more mature and recognized as legal entities by more jurisdictions at which time a smooth transition of Shardeum from foundation to DAO can be considered.
+
+## What kind of BLS signatures shardeum use and on which curves if so they operate, also what is the hash function?
+
+Ed25519 and SHA256
+
+## I am getting an error when trying to add the Shardeum network to MetaMask on my mobile device. How to resolve this?
+
+The SSL certificate on the RPC server is set up now at both host and DNS end and now the new RPC URL has https instead of http. Please use this : https://liberty10.shardeum.org/ and this is added to developer documentation. Users also reported that during such times, using Kiwi browser to add the network also resolves the issue. Documenting this for future reference.
+
+## I found some bugs on Shardeum Explorer. How do we report it?
+
+Please use this form to report bugs/issues when you face any issues on Liberty so our developers can look into it for improvement opportunities : https://forms.gle/LzPB7aoHQ6sreABeA
+
+## Gas fees are high while transacting on Liberty. Why is that?
+
+Liberty 1.0 is not a sharded network and the max TPS it can reach now is 15 TPS. This is part of testnets. Sharding will be added on Liberty 2.0 release so there will be more stability around gas fees and performance in general.
+
+## What is the use of the $SHM faucet and the coin on Liberty?
+
+SHM is the network coin like ETH for Ethereum. SHM is used to pay the gas fees when you transact on the network for developing DApps and other utilities during alphanet.

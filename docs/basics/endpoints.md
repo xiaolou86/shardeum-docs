@@ -5,10 +5,10 @@ sidebar_position: 2
 
 # Network Endpoints
 
-| **Field**                         	| **Alphanet**               	| **Betanet** 	| **Mainnet** 	|
-|-----------------------------------	|----------------------------	|-------------	|-------------	|
-| **Network Name**                  	| Shardeum Alphanet          	|   Q3 2022   	|   Q4 2022   	|
-| **New RPC URL**                   	| TBA                       	|   Q3 2022   	|   Q4 2022   	|
-| **Chain ID**                      	| TBA                        	|   Q3 2022   	|   Q4 2022   	|
-| **Currency symbol (optional)**    	| SHM                       	|   Q3 2022   	|   Q4 2022   	|
-| **Block Explorer URL (optional)** 	| http://208.110.82.50:4444/ 	|   Q3 2022   	|   Q4 2022   	|
+| **Field**                         	| **Alphanet**               	
+|-----------------------------------	|----------------------------
+| **Network Name**                  	| Shardeum Liberty 1.0      	
+| **New RPC URL**                   	| https://liberty10.shardeum.org/                     
+| **Chain ID**                      	| 8080                        	
+| **Currency symbol (optional)**    	| SHM                       	
+| **Block Explorer URL (optional)** 	| http://explorer.liberty10.shardeum.org:5555/ 	

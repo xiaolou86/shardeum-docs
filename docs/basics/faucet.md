@@ -5,6 +5,6 @@ sidebar_position: 3
 
 # Faucet
 
-**Alphanet:** http://69.30.233.142:3000/
+**Shardeum Liberty 1.0:** http://faucet.liberty10.shardeum.org:3000/
 
 ![faucet_1](/img/faucet/faucet.png)

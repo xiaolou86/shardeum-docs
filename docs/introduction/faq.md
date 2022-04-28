@@ -8,7 +8,7 @@ sidebar_position: 7
 
 ## What is Shardeum?
 
-Shardeum is an EVM-compatible dynamically state sharded blockchain with infinite scalability, true decentralization, and solid security.
+Shardeum is an EVM-compatible dynamic state sharded blockchain with infinite scalability, true decentralization, and solid security.
 
 ## What does Shardeum aim for?
 
@@ -48,7 +48,7 @@ Since Shardeum is EVM compatible, there is nothing new you have to learn to use 
 - Low Latency
 - High Capacity
 - High Fairness
-- High Throughput (TPS - Transaction Per Second)
+- High Throughput (TPS - Transactions Per Second)
 
 ## How will Shardeum achieve Fast Finality?
 
@@ -103,7 +103,7 @@ Shardeum will aim to build a horizontally scalable network.
 
 ## What are the types of nodes in Shardeum?
 
-There are three types of nodes in Shardeum essentially. Note the network node reward schedule is work in progress and will be finalized in the upcoming months:
+There are three types of nodes in Shardeum essentially. The network node reward schedule is work in progress and will be finalized in the upcoming months.
 
 ## Will the Shardeum network work with different wallets?
 

@@ -23,7 +23,7 @@ sidebar_position: 3
 | **New RPC URL**                   	| https://liberty10.shardeum.org/                     
 | **Chain ID**                      	| 8080                        	
 | **Currency symbol (optional)**    	| SHM                       	
-| **Block Explorer URL (optional)** 	| http://explorer.liberty10.shardeum.org:5555/ 		
+| **Block Explorer URL (optional)** 	| https://explorer.liberty10.shardeum.org/
 
 ## Save the Network
 

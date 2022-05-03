@@ -1,9 +1,12 @@
 import React from 'react';
 import Polipop from 'polipop';
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
 // Default implementation, that you can customize
 export default function Root({children}) {
 
+
+  if (ExecutionEnvironment.canUseDOM) {
   var polipop = new Polipop('mypolipop', {
       layout: 'popups',
       position: 'bottom-right',
@@ -11,8 +14,6 @@ export default function Root({children}) {
       sticky: true,
 
   });
-
-
 
   polipop.add({
     content: `<b>Reminder:</b> The Liberty 1.0 network will be reset on May 4th, 2022 at 5:00 PM UTC.
@@ -22,6 +23,7 @@ export default function Root({children}) {
     title: 'Upcoming Reset',
     type: 'default',
 });
+}
 
   return <>{children}</>;
 

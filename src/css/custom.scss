@@ -81,3 +81,12 @@ img[alt*="remix_1"], img[alt*="remix_2"], img[alt*="remix_3"], img[alt*="remix_4
     transform: translateX(-10%);
     width: 80%;
 }
+
+.polipop__notification-inner {text-align: center;}
+
+.polipop__notification-title {font-size: 18px;font-weight: 800;}
+
+.polipop_theme_default .polipop__notification-icon {
+    margin: 0 12px 0 0;
+    position: absolute;
+}

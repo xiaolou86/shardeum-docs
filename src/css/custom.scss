@@ -5,6 +5,9 @@
  */
 
  @import 'satoshi';
+ @import "node_modules/polipop/src/sass/core";
+ @import 'node_modules/polipop/src/sass/default';
+
 
 /* You can override the default Infima variables here. */
 :root {
@@ -47,4 +50,34 @@ img[alt*="adding_shardeum_1"], img[alt*="create_account_1"], img[alt*="create_ac
 
 img[alt*="remix_1"], img[alt*="remix_2"], img[alt*="remix_3"], img[alt*="remix_4"], img[alt*="remix_5"], img[alt*="remix_6"], img[alt*="remix_7"], img[alt*="remix_8"]  {
    width: 50%;
+}
+
+@media (min-width: 997px) {
+  .navbar_item_1,  {
+    padding-left: 150px;
+  }
+}
+
+.announcementBar_node_modules-\@docusaurus-theme-classic-lib-next-theme-AnnouncementBar-styles-module {
+    height: 80px !important;
+}
+
+@media (max-width: 997px) {
+  .announcementBar_node_modules-\@docusaurus-theme-classic-lib-next-theme-AnnouncementBar-styles-module {
+      height: 200px !important;
+  }
+}
+
+.navbar__item.navbar__link.navbar_item_1 > svg, .navbar__item.navbar__link.navbar_item > svg {
+  display: none;
+}
+
+.polipop_position_bottom-right {
+    position: fixed;
+    /* right: 50%; */
+    bottom: 10px;
+    /* display: flex; */
+    /* justify-content: flex-end !important; */
+    transform: translateX(-10%);
+    width: 80%;
 }

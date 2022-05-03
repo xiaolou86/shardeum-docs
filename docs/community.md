@@ -1,5 +1,5 @@
 ---
-slug: /Community
+slug: /community
 title: Community
 sidebar_position: 6
 

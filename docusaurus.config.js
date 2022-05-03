@@ -49,14 +49,29 @@ const config = {
           alt: 'Shardeum Docs Logo',
           src: 'img/shardeum-logo-dark.png',
         },
+
         items: [
+
           {
             href: 'https://github.com/shardeum/shardeum-docs',
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://forms.gle/BFLXtLn9Urq9KH998',
+            label: 'DApp Form',
+            position: 'left',
+            className: 'navbar_item_1',
+       },
+          {
+            href: 'https://forms.gle/LzPB7aoHQ6sreABeA',
+            label: 'Bug Report',
+            position: 'left',
+            className: 'navbar_item',
+          },
         ],
       },
+    
       footer: {
         links: [
           {
@@ -152,5 +167,7 @@ const config = {
     }),
   plugins: ['docusaurus-plugin-sass']
 };
+
+
 
 module.exports = config;

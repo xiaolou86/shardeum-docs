@@ -9,7 +9,7 @@ Truffle is a world-class development environment, testing framework and asset pi
 
 There are a few technical requirements for developers to start using Truffle, Install the following dependencies:
 
-- NodeJS v12 or later
+- NodeJS v12 or later ([available here](https://nodejs.org/en/))
 - Npm/Yarn Package Installer (Included with Node)
 - Windows, Linux or Mac OS X
 
@@ -106,7 +106,7 @@ module.exports = {
   networks: {
     development: {
       host: "127.0.0.1",     // Localhost (default: none)
-      port: 8545,            // Standard BSC port (default: none)
+      port: 8545,            // Standard port (default: none)
       network_id: "*",       // Any network (default: none)
     },
     liberty: {

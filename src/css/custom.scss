@@ -3,21 +3,25 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-
- @import 'satoshi';
- @import "node_modules/polipop/src/sass/core";
- @import 'node_modules/polipop/src/sass/default';
-
-
+@import 'satoshi';
+@import "node_modules/polipop/src/sass/core";
+@import 'node_modules/polipop/src/sass/default';
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2031E6; /**Blue 700*/
-  --ifm-color-primary-dark: #0029DD; /**Blue 800*/
-  --ifm-color-primary-darker: #0022B8; /**Blue 900*/
-  --ifm-color-primary-darkest: #00177A; /**Blue 1000*/
-  --ifm-color-primary-light: #4150EA; /**Blue 600*/
-  --ifm-color-primary-lighter: #C9CDF9; /**Blue 200*/
-  --ifm-color-primary-lightest: #DCDEFA; /**Blue 100*/
+  --ifm-color-primary: #2031E6;
+  /**Blue 700*/
+  --ifm-color-primary-dark: #0029DD;
+  /**Blue 800*/
+  --ifm-color-primary-darker: #0022B8;
+  /**Blue 900*/
+  --ifm-color-primary-darkest: #00177A;
+  /**Blue 1000*/
+  --ifm-color-primary-light: #4150EA;
+  /**Blue 600*/
+  --ifm-color-primary-lighter: #C9CDF9;
+  /**Blue 200*/
+  --ifm-color-primary-lightest: #DCDEFA;
+  /**Blue 100*/
   --ifm-code-font-size: 95%;
   --ifm-footer-background-color: #000000;
   --ifm-footer-title-color: #FAFAFA;
@@ -26,8 +30,8 @@
   --ifm-footer-color: #9E9E9E;
 }
 
-html,
-body {
+body,
+html {
   padding: 0;
   margin: 0;
   font-family: Satoshi-Variable, Roboto;
@@ -44,49 +48,71 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-img[alt*="adding_shardeum_1"], img[alt*="create_account_1"], img[alt*="create_account_2"], img[alt*="sending_transactions_2"], img[alt*="sending_transactions_3"], img[alt*="sending_transactions_4"], img[alt*="tokenomics"]  {
-   width: 50%;
+img[alt*="adding_shardeum_1"],
+img[alt*="create_account_1"],
+img[alt*="create_account_2"],
+img[alt*="sending_transactions_2"],
+img[alt*="sending_transactions_3"],
+img[alt*="sending_transactions_4"],
+img[alt*="tokenomics"] {
+  width: 50%;
 }
 
-img[alt*="remix_1"], img[alt*="remix_2"], img[alt*="remix_3"], img[alt*="remix_4"], img[alt*="remix_5"], img[alt*="remix_6"], img[alt*="remix_7"], img[alt*="remix_8"]  {
-   width: 50%;
+img[alt*="remix_1"],
+img[alt*="remix_2"],
+img[alt*="remix_3"],
+img[alt*="remix_4"],
+img[alt*="remix_5"],
+img[alt*="remix_6"],
+img[alt*="remix_7"],
+img[alt*="remix_8"] {
+  width: 50%;
 }
-
 @media (min-width: 997px) {
-  .navbar_item_1,  {
+  ,
+  .navbar_item_1 {
     padding-left: 150px;
   }
 }
 
 .announcementBar_node_modules-\@docusaurus-theme-classic-lib-next-theme-AnnouncementBar-styles-module {
-    height: 80px !important;
+  height: 80px !important;
 }
-
 @media (max-width: 997px) {
   .announcementBar_node_modules-\@docusaurus-theme-classic-lib-next-theme-AnnouncementBar-styles-module {
-      height: 200px !important;
+    height: 200px !important;
   }
 }
 
-.navbar__item.navbar__link.navbar_item_1 > svg, .navbar__item.navbar__link.navbar_item > svg {
+.navbar__item.navbar__link.navbar_item > svg,
+.navbar__item.navbar__link.navbar_item_1 > svg {
   display: none;
 }
 
 .polipop_position_bottom-right {
-    position: fixed;
-    /* right: 50%; */
-    bottom: 10px;
-    /* display: flex; */
-    /* justify-content: flex-end !important; */
-    transform: translateX(-10%);
-    width: 80%;
+  position: fixed;
+  /* right: 50%; */
+  bottom: 10px;
+  /* display: flex; */
+  /* justify-content: flex-end !important; */
+  transform: translateX(-10%);
+  width: 80%;
 }
 
-.polipop__notification-inner {text-align: center;}
+.polipop__notification-inner {
+  text-align: center;
+}
 
-.polipop__notification-title {font-size: 18px;font-weight: 800;}
+.polipop__notification-title {
+  font-size: 18px;
+  font-weight: 800;
+}
 
 .polipop_theme_default .polipop__notification-icon {
-    margin: 0 12px 0 0;
-    position: absolute;
+  margin: 0 12px 0 0;
+  position: absolute;
+}
+
+#mypolipop > div.polipop__notifications > div {
+  box-shadow: -1px 1px 2px 2px rgb(0 0 0 / 30%);
 }

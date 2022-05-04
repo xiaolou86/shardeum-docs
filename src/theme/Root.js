@@ -13,7 +13,7 @@ export default function Root({children}) {
       sticky: true
     });
 
-    polipop.add({content: `<b>Reminder:</b> The Liberty 1.0 network will be reset on May 4th, 2022 at 5:00 PM UTC.
+    polipop.add({content: `<b>Reminder:</b> The Liberty 1.0 network will be reset on May 5th, 2022 at 3:00 PM UTC.
     <br>
     <br>
     Accounts that received SHM from the Faucet through a tweet will be automatically given funds after the reset.`, title: 'Upcoming Reset', type: 'default'});

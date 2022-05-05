@@ -7,7 +7,7 @@ Truffle is a world-class development environment, testing framework and asset pi
 
 ## Environment Setup
 
-There are a few technical requirements for developers to start using Truffle, Install the following dependencies:
+There are a few technical requirements for developers to start using Truffle. Install the following dependencies:
 
 - NodeJS v12 or later ([available here](https://nodejs.org/en/))
 - Npm/Yarn Package Installer (Included with Node)
@@ -15,7 +15,7 @@ There are a few technical requirements for developers to start using Truffle, In
 
 ## Installing Truffle
 
-Once the above dependencies are installed successfully, You can now install Truffle.
+Once the above dependencies are installed successfully. You can now install Truffle.
 
 ```
 npm install -g truffle
@@ -25,7 +25,7 @@ To verify that Truffle is installed properly, type truffle version into the term
 
 ## Creating a Project
 
-After ensuring truffle is installed successfully. Create your own project, name it "testToken".
+After ensuring Truffle is installed successfully. Create your own project, name it "testToken".
 
  - Create a new directory for your Truffle project
 

@@ -3,7 +3,7 @@ title: Ethereum Virtual Machine
 sidebar_position: 4
 ---
 
-## Ethereum Virtual Machine
+## what is the EVM?
 
 EVM is short for Ethereum Virtual Machine. Let’s start with Virtual Machines in simple words. The purpose of a virtual machine is to virtualize the version of a host computer or server (like client APIs) and deploy that version on multiple (end user) systems across the world with the help of software programs and automations. In Web 1 and Web 2, the software programs are typically installed and maintained by developers in centralized institutions for proprietary use.
 
@@ -13,4 +13,4 @@ We now have a state machine that virtualizes servers and interfaces of thousands
 
 ## Shardeum is EVM Compatible
 
-Now if you are one of those Ethereum or Ethereum based developers, please note Shardeum is EVM compatible. You don't need to change your application codes to launch various DApps you are building on Shardeum. Any smart-contract written to run in EVM can be easily ported to Shardeum network. You just need to deploy a smart contract written in Solidity or Viper on Shardeum with a bonus that you will never have to worry about rising gas fees again
+Now if you are one of those Ethereum or Ethereum based developers, please note Shardeum is EVM compatible. You don't need to change your application codes to launch various DApps you are building on Shardeum. Any smart-contract written to run in EVM can be easily ported to Shardeum network. You just need to deploy a smart contract written in Solidity or Viper on Shardeum with a bonus that you will never have to worry about rising gas fees again.

@@ -83,7 +83,7 @@ img[alt*="remix_8"] {
   }
 }
 
-.navbar__item.navbar__link.navbar_item > svg,
+.navbar__item.navbar__link.navbar_item_2 > svg,
 .navbar__item.navbar__link.navbar_item_1 > svg {
   display: none;
 }
@@ -114,4 +114,13 @@ img[alt*="remix_8"] {
 
 #mypolipop > div.polipop__notifications > div {
   box-shadow: -1px 1px 2px 2px rgb(0 0 0 / 30%);
+}
+
+
+.navbar_item_1, .navbar_item_2  {
+  color: #2031e6;
+}
+
+.navbar_item_1:hover, .navbar_item_2:hover  {
+color: #1c1e21;
 }

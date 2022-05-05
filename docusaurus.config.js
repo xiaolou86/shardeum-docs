@@ -59,19 +59,19 @@ const config = {
           },
           {
             href: 'https://forms.gle/BFLXtLn9Urq9KH998',
-            label: 'DApp Form',
+            label: 'Publicize Your dApp',
             position: 'left',
             className: 'navbar_item_1',
        },
           {
             href: 'https://forms.gle/LzPB7aoHQ6sreABeA',
-            label: 'Bug Report',
+            label: 'Report Bugs Here',
             position: 'left',
-            className: 'navbar_item',
+            className: 'navbar_item_2',
           },
         ],
       },
-    
+
       footer: {
         links: [
           {

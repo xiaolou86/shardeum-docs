@@ -3,7 +3,7 @@ title: Ethereum Virtual Machine
 sidebar_position: 4
 ---
 
-## what is the EVM?
+## What is the EVM?
 
 EVM is short for Ethereum Virtual Machine. Let’s start with Virtual Machines in simple words. The purpose of a virtual machine is to virtualize the version of a host computer or server (like client APIs) and deploy that version on multiple (end user) systems across the world with the help of software programs and automations. In Web 1 and Web 2, the software programs are typically installed and maintained by developers in centralized institutions for proprietary use.
 

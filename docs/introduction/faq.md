@@ -152,3 +152,11 @@ Liberty 1.0 is not a sharded network and the max TPS it can reach now is 15 TPS.
 ## What is the use of the $SHM faucet and the coin on Liberty?
 
 SHM is the network coin like ETH for Ethereum. SHM is used to pay the gas fees when you transact on the network for developing DApps and other utilities during alphanet.
+
+## How to find which projects are building on Liberty so I can consider interacting with their interfaces in the future?
+
+Community and developers can easily find the list of projects that are building on Liberty [here](https://docs.google.com/spreadsheets/d/1kthKCY097MlNwfm8g8OAhldmFOE5rTG9vwl7FHrnDEk/edit#gid=907836377)
+
+## How can I promote the project I am building on Shardeum to its community and other developers?
+
+We encourage you to fill up and submit this simple [form](https://forms.gle/BFLXtLn9Urq9KH998) which will be transposed into a spreadsheet in raw form for easy consumption by the Shardeum community and other devs building on the network. This spreadsheet is stored on the project’s google drive which is open to public

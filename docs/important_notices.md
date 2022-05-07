@@ -8,9 +8,9 @@ sidebar_position: 8
 
 - In the case of a full relaunch, accounts will be reset in which case you can can choose to pull data from your DApps on Liberty. If there is a reset, you will need to use the faucet again, and redeploy smart contracts. We expect that there will be several full data resets throughout Shardeum Liberty. Thanks for understanding and we appreciate your support.
 
-- Before you interact with any smart contracts, protocols, DApps built on Shardeum, please note, Shardeum Foundation is not linked to them and is not liable for any such actions.
+- Before you interact with any smart contracts, protocols, dApps built on Shardeum, please note Shardeum Foundation is not linked to any of them and is therefor not liable for any such actions from your end.
 
-- Do not ever share your private keys or passwords with anyone.
+- Do not ever share your private keys or passwords/seed phrases with anyone.
 
 - Do not send funds to anyone in exchange for testnet SHM. Testnet SHM holds no real world value.
 

@@ -1,6 +1,6 @@
 ---
 slug: /important_notices
-title: Important Notices for dApp Developers on Shardeum
+title: Important Notices
 sidebar_position: 8
 
 ---

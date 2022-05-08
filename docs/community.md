@@ -13,7 +13,6 @@ So get started and be an early adopter of the network by joining Shardeum’s gl
 ## Website and Socials
 
 - 💻 Website: https://shardeum.org/
-- 📰 Newsletter https://shardeum.org/newsletter/
 - 📹 Youtube: https://www.youtube.com/channel/UCO20LJZBF-lYbc6PWVvwkMA
 - 🐦 Twitter : https://twitter.com/shardeum
 - 🗣️ Discord : https://discord.com/invite/gx2SFZDDSM

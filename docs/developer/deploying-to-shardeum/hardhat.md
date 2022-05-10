@@ -160,7 +160,7 @@ module.exports = {
 
 **Note:** Make sure to add your mnemonic or private key and add it to a separate file named "secrets.json" (make sure never to upload this file to GitHub or GitLab).
 
-## Compile Contact
+## Compile Contract
 
 To compile a Hardhat project, change to the root of the directory in our case testToken directory and run the command in the terminal.
 

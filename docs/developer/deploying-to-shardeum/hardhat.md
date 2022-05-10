@@ -3,7 +3,7 @@ title: Using Hardhat
 sidebar_position: 3
 ---
 
-Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. It helps developers manage and automate the recurring tasks inherent to the process of building smart contracts and dApps and easily introduces more functionality around this workflow. This means compiling, running, and testing smart contracts at the very core.
+Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. It helps developers manage and automate the recurring tasks inherent to the process of building smart contracts and dApps and easily introduces more functionality around this workflow. This means compiling, running and testing smart contracts at the very core.
 
 ## Environment Setup
 
@@ -15,7 +15,7 @@ There are a few technical requirements for developers to start using Hardhat. In
 
 ## Installing Hardhat
 
-Once the above dependencies are installed successfully, You need to setup a fresh new empty project by using the below commands.
+Once the above dependencies are installed successfully, you need to setup a fresh new empty project by using the below commands.
 
 ```
 mkdir testToken
@@ -162,7 +162,7 @@ module.exports = {
 
 ## Compile Contract
 
-To compile a Hardhat project, change to the root of the directory in our case testToken directory and run the command in the terminal.
+To compile a Hardhat project, change to the root directory (in our case testToken directory) and run the command in the terminal.
 
 ```
 npx hardhat compile

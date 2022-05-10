@@ -73,7 +73,7 @@ contract testToken is ERC20 {
 
 ## Compile Contract
 
-To compile a Truffle project, change to the root of the directory in our case testToken directory and run the command in the terminal.
+To compile a Truffle project, change to the root directory (in our case testToken directory) and run the command in the terminal.
 
 ```
 truffle compile

@@ -67,7 +67,7 @@ npx hardhat
 
 Select "Create a basic sample project".
 
-Once this operation is completed, you'll now have a project structure with the following items:
+Once this operation is complete, you'll now have a project structure with the following items:
 
 1. contracts/: Directory for Solidity contracts
 2. scripts/: Directory for scriptable deployment files

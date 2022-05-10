@@ -1,6 +1,6 @@
 ---
 title: Shardeum Liberty Opcodes
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Liberty 1.0 Opcodes

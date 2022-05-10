@@ -10,7 +10,7 @@ Truffle is a world-class development environment, testing framework and asset pi
 There are a few technical requirements for developers to start using Truffle. Install the following dependencies:
 
 - NodeJS v12 or later ([available here](https://nodejs.org/en/))
-- Npm/Yarn Package Installer (Included with Node)
+- Npm/Yarn Package Installer (included with Node)
 - Windows, Linux or Mac OS X
 
 ## Installing Truffle
@@ -132,7 +132,7 @@ module.exports = {
 }
 
 ```
-**Note:** Make sure to add your mnemonic or private key, add to a separate file named ".secret" (make sure never to upload this file to GitHub or GitLab).
+**Note:** Make sure to add your mnemonic or private key and add it to a separate file ".secret" (make sure never to upload this file to GitHub or GitLab).
 
 Make sure you have @truffle/hdwallet-provider dependency installed, if not install it using the below command.
 
@@ -185,4 +185,4 @@ Summary
 > Final cost:          0.02769094 ETH
 ```
 
-Congratulations! You have successfully deployed an ERC20 Smart Contract. You can now interact with this Smart Contract.
+Congratulations! You have successfully deployed ERC20 Smart Contract. Now you can interact with the Smart Contract by building a dApp.

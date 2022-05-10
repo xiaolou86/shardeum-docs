@@ -3,7 +3,7 @@ title: Using Remix
 sidebar_position: 1
 ---
 
-## Using Remix
+Remix IDE is an open source web and desktop application. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. Remix is used for the entire journey of contract development as well as act as a playground for learning and teaching Ethereum.
 
 1, Visit https://remix.ethereum.org/
 

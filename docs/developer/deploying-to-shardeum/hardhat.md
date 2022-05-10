@@ -101,7 +101,7 @@ contract testToken is ERC20 {
 
 ## Configuring Hardhat For Shardeum Liberty
 
- - Go to truffle-config.js (located in root directory)
+ - Go to hardhat-config.js (located in root directory)
  - Update with Shardeum Liberty details ([available here](/basics/endpoints))
 
 ```
@@ -162,7 +162,7 @@ module.exports = {
 
 ## Compile Contact
 
-To compile a Truffle project, change to the root of the directory in our case testToken directory and run the command in the terminal.
+To compile a Hardhat project, change to the root of the directory in our case testToken directory and run the command in the terminal.
 
 ```
 npx hardhat compile

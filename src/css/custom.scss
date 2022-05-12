@@ -65,8 +65,19 @@ img[alt*="remix_4"],
 img[alt*="remix_5"],
 img[alt*="remix_6"],
 img[alt*="remix_7"],
-img[alt*="remix_8"] {
+img[alt*="remix_8"],
+img[alt*="claim_1"],
+img[alt*="claim_2"],
+img[alt*="claim_3"],
+img[alt*="claim_4"],
+img[alt*="claim_5"],
+img[alt*="claim_6"],
+img[alt*="claim_7"] {
   width: 50%;
+}
+
+img[alt*="claim_8"] {
+  width: 25%;
 }
 @media (min-width: 997px) {
   .navbar_item_1 {

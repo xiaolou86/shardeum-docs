@@ -50,9 +50,9 @@ const config = {
      // Optional medium-zoom options
      // see: https://www.npmjs.com/package/medium-zoom#options
      options: {
-       margin: 60,
-       background: '#fff',
-       scrollOffset: 40,
+       margin: 40,
+       background: '#000',
+       scrollOffset: 60,
        // container: 'main',
        // template: '#zoom-template',
      },

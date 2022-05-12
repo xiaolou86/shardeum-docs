@@ -42,6 +42,21 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+
+      imageZoom: {
+     // CSS selector to apply the plugin to, defaults to '.markdown img'
+     // selector: '.markdown img',
+     // Optional medium-zoom options
+     // see: https://www.npmjs.com/package/medium-zoom#options
+     options: {
+       margin: 60,
+       background: '#fff',
+       scrollOffset: 40,
+       // container: 'main',
+       // template: '#zoom-template',
+     },
+   },
       navbar: {
         title: 'Shardeum',
         hideOnScroll: true,
@@ -165,7 +180,8 @@ const config = {
         respectPrefersColorScheme: false
       }
     }),
-  plugins: ['docusaurus-plugin-sass']
+  plugins: ['docusaurus-plugin-sass',
+              'plugin-image-zoom'],
 };
 
 

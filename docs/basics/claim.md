@@ -1,7 +1,7 @@
 ---
 title: Claim 100 Liberty SHM
 sidebar_position: 5
-image: shardeum-docs-master/static/img/claim/claim_9.jpeg
+image: /img/claim_9.jpeg
 ---
 
 # Claim 100 Liberty SHM

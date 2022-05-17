@@ -16,7 +16,7 @@ image: /img/claim_9.jpeg
 
 ![claim_8](/img/claim/claim_8.png)
 
-*tweet required to avoid malicious activities or abuse of the faucet
+*Tweet required to avoid malicious activities or abuse of the faucet and to spread Shardeum/its mission to bring decentralization to everyone
 
 4. Twitter will automatically open with a pre-populated tweet. Replace the blank address: 0x0000000000000000000000000000000000000000, with your account address and post the tweet.
 

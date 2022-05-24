@@ -89,7 +89,7 @@ const config = {
             href: '/basics/claim',
             label: 'Claim 100 SHM',
             position: 'left',
-            className: 'navbar_item_2',
+            className: 'navbar_item_button',
           },
         ],
       },
@@ -104,6 +104,12 @@ const config = {
                 to: 'https://shardeum.org',
               },
               {
+                href: '/basics/claim',
+                label: 'Claim 100 SHM',
+                position: 'left',
+
+              },
+              {
                 label: 'Super Shardians',
                 to: 'https://github.com/Shardeum/super-shardeum',
               },
@@ -115,12 +121,7 @@ const config = {
                 label: 'Languages',
                 to: 'https://shardeum.org/languages',
               },
-              {
-                href: '/basics/claim',
-                label: 'Claim 100 SHM',
-                position: 'left',
-              
-              },
+
             ],
           },
           {

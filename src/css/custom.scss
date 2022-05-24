@@ -102,7 +102,7 @@ img[alt*="claim_8"] {
 .polipop_position_bottom-right {
   position: fixed;
   /* right: 50%; */
-  bottom: 10px;
+  bottom: 50%;
   /* display: flex; */
   /* justify-content: flex-end !important; */
   transform: translateX(-10%);
@@ -159,4 +159,14 @@ a[href="/faucetExplorer"] {
       min-width: 300px;
       flex-wrap: wrap;
       border: 1px solid black;
+}
+
+a.navbar__item.navbar__link.navbar_item_button {
+    background-color: #2031E2;
+    color: white;
+}
+
+a.navbar__item.navbar__link.navbar_item_button:hover {
+    background-color: #3241E8;
+    color: white;
 }

@@ -84,6 +84,13 @@ const config = {
             position: 'left',
             className: 'navbar_item_2',
           },
+
+          {
+            href: '/basics/claim',
+            label: 'Claim 100 SHM',
+            position: 'left',
+            className: 'navbar_item_2',
+          },
         ],
       },
 
@@ -107,6 +114,12 @@ const config = {
               {
                 label: 'Languages',
                 to: 'https://shardeum.org/languages',
+              },
+              {
+                href: '/basics/claim',
+                label: 'Claim 100 SHM',
+                position: 'left',
+              
               },
             ],
           },

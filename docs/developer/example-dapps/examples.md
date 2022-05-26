@@ -1,8 +1,8 @@
 ---
-title: Dapp Examples
+title: dApp Examples
 sidebar_position: 1
 ---
 
-# Dapp Examples
+# dApp Examples
 
 Coming soon...

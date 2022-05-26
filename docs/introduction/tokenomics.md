@@ -5,7 +5,7 @@ sidebar_position: 6
 
 # Tokenomics
 
-The Shardeum network will have a native coin called Shard with a ticker symbol of SHM. The coin will be mined by validator, archive and standby nodes as reward for providing resources to the network. The coin will be used for paying gas fees associated with executing transfer transactions as well as smart contract execution on the Shardeum network.
+The Shardeum network will have a native coin called Shard with a ticker symbol of SHM. The coin will be mined by validator, archive and standby nodes as a reward for providing resources to the network. The coin will be used for paying gas fees associated with executing transfer transactions and smart contract execution on the Shardeum network.
 
 Max supply: 508 million SHM
 

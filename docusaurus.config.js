@@ -111,7 +111,7 @@ const config = {
               },
               {
                 label: 'Super Shardians',
-                to: 'https://github.com/Shardeum/super-shardeum',
+                to: 'https://shardeum.org/super-shardian/',
               },
               {
                 label: 'Blog',
@@ -146,18 +146,18 @@ const config = {
             items: [
               {
                 label: 'Litepaper',
-                to: 'https://shardeum.org/wp-content/uploads/2022/03/Shardeum-Litepaper.pdf',
+                to: 'https://shardeum.org/Shardeum-Litepaper.pdf',
               },
               {
                 label: 'FAQs',
-                to: 'https://shardeum.org/faq/',
+                to: 'https://docs.google.com/document/d/1RilXqwJN6hupaKdrXhk2RF9gl_DS5qY3uPm6iII3Xyg/edit?usp=sharing',
               },
               {
                 label: 'Brand Assets Page',
                 to: 'https://drive.google.com/drive/folders/1jdjJNMajHG_QDu_uAXTRrqpXW3AUuiJu',
               },
               {
-                label: 'Public Drive link',
+                label: 'Public Drive Link',
                 to: 'https://drive.google.com/drive/folders/1zal5vN3f67Ql-Q8jiSYsp6Nf0xoJuqNI',
               },
             ],

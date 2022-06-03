@@ -136,7 +136,7 @@ img[alt*="claim_8"] {
 color: #1c1e21;
 }
 
-a[href="/faucetExplorer"] {
+a[href="/faucetExplorer"], a[href="/networkHealth"]  {
   display: none;
 }
 
@@ -173,4 +173,10 @@ a.navbar__item.navbar__link.navbar_item_button:hover {
 
 .react-daterange-picker__inputGroup__input:invalid {
     background: none !important;
+}
+
+
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
 }

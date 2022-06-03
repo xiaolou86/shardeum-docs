@@ -170,3 +170,7 @@ a.navbar__item.navbar__link.navbar_item_button:hover {
     background-color: #3241E8;
     color: white;
 }
+
+.react-daterange-picker__inputGroup__input:invalid {
+    background: rgba(255,0,0,.1);
+}

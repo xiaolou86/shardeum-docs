@@ -1,5 +1,5 @@
 ---
-title: Validator FAQs
+title: Validator
 sidebar_position: 5
 ---
 

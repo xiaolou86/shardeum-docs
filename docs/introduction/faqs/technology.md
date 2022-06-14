@@ -1,5 +1,5 @@
 ---
-title: Technology FAQs
+title: Technology
 sidebar_position: 2
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Security FAQs
+title: Security
 sidebar_position: 3
 ---
 

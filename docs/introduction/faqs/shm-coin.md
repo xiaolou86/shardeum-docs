@@ -1,5 +1,5 @@
 ---
-title: SHM Coin FAQs
+title: SHM Coin
 sidebar_position: 4
 ---
 

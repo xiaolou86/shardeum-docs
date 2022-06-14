@@ -1,5 +1,5 @@
 ---
-title: Shardeum Liberty Alphanet
+title: Shardeum Liberty
 sidebar_position: 6
 ---
 

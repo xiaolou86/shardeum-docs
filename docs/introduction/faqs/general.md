@@ -1,5 +1,5 @@
 ---
-title: General FAQs
+title: General
 sidebar_position: 1
 ---
 

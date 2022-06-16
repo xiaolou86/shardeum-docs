@@ -10,6 +10,24 @@ OCC is short for Open, Collaborative and Community driven approach in the effort
 
 So get started and be an early adopter of the network by joining Shardeum’s global community today via official channels here. You will also get a great opportunity to start collaborating with like minded individuals and contribute towards building the future of the internet.
 
+## FAQ
+
+## How to get a role as a contributor on Shardeum especially if I am not from a technical background??
+
+You can start contributing to Shardeum right away. It does not require any permission or technical background necessarily. Build, write, research, design, develop, talk - any area you can add value. You are welcome to contribute to blogs, videos, podcasts, community engagement, translations, design, organizing webinars, community meet ups and you name it. With consistent contribution, you can expect to become a 'contributor' and earn multiple rewards in the future like airdrops, NFTs, merchs, your contribution recognition with profile picture on our website, social media etc.
+
+## I am a full stack developer (Node.js, Angular etc.). How can I help in development activities?
+
+Developers/Software engineers are requested to contact Greg at - greg@shardeum.org
+
+## What are the primary languages in which Shardeum is being developed?
+
+Node.js + TypeScript + Rust
+
+## What are the plans for rewarding community members for their contributions to the project?
+
+As part of Super Shardians and other programs, we are in the process of finalizing rewards for community members for contributions towards blog, videos, community moderation, translation work, organizing webinars and other relevant meetups. We are targeting to reward our community starting July 2022 both for work done till date and in the future. As mentioned previously, rewards will be in the form of fiat, crypto merch, NFTs, airdrop allocations among others.
+
 ## Website and Socials
 
 - 💻 Website: https://shardeum.org/

@@ -10,7 +10,7 @@ OCC is short for Open, Collaborative and Community driven approach in the effort
 
 So get started and be an early adopter of the network by joining Shardeum’s global community today via official channels here. You will also get a great opportunity to start collaborating with like minded individuals and contribute towards building the future of the internet.
 
-title: FAQ
+# FAQ
 
 ## How to get a role as a contributor on Shardeum especially if I am not from a technical background??
 

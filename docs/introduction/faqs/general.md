@@ -101,4 +101,4 @@ Again, all of these are WIP. This is just a peek into an overview of how the nod
 
 ## Will the Shardeum network work with different wallets?
 
-Any EVM compatible wallet will work with Shardeum. Developers can also build new Shardeum wallets.
+Any EVM based wallet will work on Shardeum. Developers can also build new Shardeum wallets as a dApp utility on the network.

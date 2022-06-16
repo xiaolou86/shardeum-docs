@@ -5,46 +5,42 @@ sidebar_position: 6
 
 ## What is Shardeum?
 
-You will find the answer to this question under the ‘general’ sub folder here. However we would like to add this further : Shardeum is an EVM-based sharded layer 1 blockchain that uses dynamic state sharding to increase transactions per second (TPS) with the addition of every new node.
+Shardeum is an EVM-based sharded layer 1 blockchain that uses dynamic state sharding to increase transactions per second (TPS) with the addition of every new node. This will allow the network to have very low and constant transaction fees forever asides from infinite scalability.
 
-## Smart contracts on Shardeum should be written in which languages?
+## Which languages are used for smart contracts on Shardeum?
 
-EVM-compatible languages can be used to compile smart contracts; this includes Solidity and Vyper.
+EVM-based languages is used to compile smart contracts; this includes Solidity and Vyper.
 
 ## How can I contribute to Liberty as a developer?
 
-You can build and deploy smart contracts on Liberty by following the developer documentation. List your smart contract [here](https://forms.gle/BFLXtLn9Urq9KH998) to publicize it among the community and become a leader in the Shardeum ecosystem.
+You can build and deploy smart contracts on Liberty by following this developer documentation. Further, list your dApps you are building on Liberty [here](https://forms.gle/BFLXtLn9Urq9KH998) to publicize it among the community and become a leader in the Shardeum ecosystem.
 
-Pro-tip: If you already have a smart contract deployed on Ethereum, you can migrate it to Liberty within seconds.
+Pro-tip: If you already have a smart contract deployed on Ethereum, you can migrate it to Liberty within a few minutes.
 
 ## What can the community do on Liberty?
 
-Everyone in the Shardeum community can add Liberty network to their wallet, request testnet SHM from the faucet, and interact with the [smart contracts built on it](https://bit.ly/liberty-dapps).
-
-## How can the community get involved with Liberty?
-
-Everyone in the Shardeum community can add the Liberty network to their wallet, request testnet SHM from the faucet and interact with smart contracts.
+Everyone in the Shardeum community can add Liberty network to their wallet, request testnet SHM from the faucet, and interact with the [smart contracts built on it](https://bit.ly/liberty-dapps). You may even qualify for future rewards/airdrops such projects would offer.
 
 ## I already have a smart contract deployed on Ethereum. Can I easily migrate it to Liberty?
 
-Since Shardeum is EVM-based, it's as simple as deploying your existing code to the Shardeum network. If you have built for Ethereum, you have built for Shardeum.
+Since Shardeum is EVM-based, it's as simple as deploying your existing code to the Shardeum network. If you have built for Ethereum, you have built for Shardeum!
 
-## What rewards can I expect if I build DApps on Shardeum Liberty?
+## What rewards can I expect if I build dApps on Shardeum Liberty?
 
 There will be an ecosystem fund setup to reward devs for creating innovative apps on Shardeum. You would be able to apply for a grant. More information will be posted on the Shardeum.org site about the process to apply.
 
 ## I found some bugs on Shardeum Explorer. How do we report it?
 
-Please use this form to report bugs/issues when you face any issues on Liberty so our developers can look into it for improvement opportunities : https://forms.gle/LzPB7aoHQ6sreABeA
+Please use this form to report bugs when you face any issues on Liberty so our developers can look into it for improvement opportunities : https://forms.gle/LzPB7aoHQ6sreABeA
 
 ## Gas fees are high while transacting on Liberty. Why is that?
 
-Liberty 1.0 is not a sharded network and the max TPS it can reach now is 15 TPS. This is part of testnets. Sharding will be added on Liberty 2.0 release so there will be more stability around gas fees and performance in general.
+Liberty 1.0 is not a sharded network and the max TPS it can reach now is 15 TPS. This is typical of testnets. Sharding will be added on Liberty 2.0 release so there will be more stability around gas fees and performance in general.
 
 ## What is the use of the faucet and testnet $SHM coins on Liberty?
 
 SHM is the network coin like ETH for Ethereum. SHM is used to pay the gas fees when
-you transact on the network for developing dApps and other utilities during alphanet. You simply have to [add](/basics/Wallets/MetaMask/add-shardeum-network) Liberty network to your wallets like MetaMask and receive 100 testnet $SHM(no real world value) from Liberty faucet using this [link](https://faucet.liberty10.shardeum.org/). Users (who are not building dApps on Liberty, can use these tokens to transfer to fellow Shardians and get a taste of what Web 3 will be especially after mainnet TGE launch.
+you transact on the network for developing dApps and transfering some coins to your friends during alphanet. You simply have to [add](/basics/Wallets/MetaMask/add-shardeum-network) Liberty network to your wallets like MetaMask and receive 100 testnet $SHM (no real world value) from Liberty faucet using this [link](https://faucet.liberty10.shardeum.org/). As mentioned before developers may qualify for grants while community members can use test tokens to pay for transaction fees you carry out on dApps built by other developers. Such community members will stand a chance to qualify for rewards/airdrops from dApp projects in the future.
 
 ## How to find which projects are building on Liberty so I can consider interacting with their interfaces and stand a chance to earn rewards in the future?
 

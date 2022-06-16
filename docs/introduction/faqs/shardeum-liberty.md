@@ -46,7 +46,7 @@ Liberty 1.0 is not a sharded network and the max TPS it can reach now is 15 TPS.
 SHM is the network coin like ETH for Ethereum. SHM is used to pay the gas fees when
 you transact on the network for developing dApps and other utilities during alphanet. You simply have to [add](/basics/Wallets/MetaMask/add-shardeum-network) Liberty network to your wallets like MetaMask and receive 100 testnet $SHM(no real world value) from Liberty faucet using this [link](https://faucet.liberty10.shardeum.org/). Users (who are not building dApps on Liberty, can use these tokens to transfer to fellow Shardians and get a taste of what Web 3 will be especially after mainnet TGE launch.
 
-## How to find which projects are building on Liberty so I can consider interacting with their interfaces in the future?
+## How to find which projects are building on Liberty so I can consider interacting with their interfaces and stand a chance to earn rewards in the future?
 
 Community and developers can easily find the list of projects that are building on Liberty [here](https://docs.google.com/spreadsheets/d/1kthKCY097MlNwfm8g8OAhldmFOE5rTG9vwl7FHrnDEk/edit#gid=907836377).
 

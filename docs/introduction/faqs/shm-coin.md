@@ -7,11 +7,13 @@ sidebar_position: 4
 
 Max supply: 508 million SHM 
 Distribution: 
-● 51% Community - reward to nodes; validators, archive and standby servers 
-● 18% Sale - 3 month cliff then 2 years linear vesting 
-● 15% Team - 3 month cliff then 2 years linear vesting 
-● 11% Foundation - unlocked at Token Generation Event (TGE) 
-● 5% Ecosystem - unlocked at TGE
+51% Community - reward to nodes; validators, archive and standby servers 
+18% Sale - 3 month cliff then 2 years linear vesting 
+15% Team - 3 month cliff then 2 years linear vesting 
+11% Foundation - unlocked at Token Generation Event (TGE) 
+5% Ecosystem - unlocked at TGE
+
+Note : Airdrops + node mining is for the community. While we have the overall distribution mechanism for ecosystem participants in place, we are yet to finalize a specific reward schedule for our nodes considering SHM will be a deflationary coin.
 
 ## Since the community will completely run Shardeum, should we allocate some % of coin distribution to the community too or the team itself means the community?
 

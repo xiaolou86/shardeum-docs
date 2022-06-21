@@ -5,8 +5,8 @@ sidebar_position: 4
 
 ## What is Shardeum’s tokenomics?
 
-Max supply: 508 million SHM 
-Distribution: 
+Max supply: 508 million 
+> SHM Distribution: 
 * 51% Community - reward to nodes; validators, archive and standby servers 
 * 18% Sale - 3 month cliff then 2 years linear vesting 
 * 15% Team - 3 month cliff then 2 years linear vesting 

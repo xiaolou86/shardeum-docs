@@ -6,12 +6,12 @@ sidebar_position: 4
 ## What is Shardeum’s tokenomics?
 
 Max supply: 508 million SHM 
-<sub>Distribution:<sub> 
-51% Community - reward to nodes; validators, archive and standby servers 
-18% Sale - 3 month cliff then 2 years linear vesting 
-15% Team - 3 month cliff then 2 years linear vesting 
-11% Foundation - unlocked at Token Generation Event (TGE) 
-5% Ecosystem - unlocked at TGE
+Distribution: 
+* 51% Community - reward to nodes; validators, archive and standby servers 
+* 18% Sale - 3 month cliff then 2 years linear vesting 
+* 15% Team - 3 month cliff then 2 years linear vesting 
+* 11% Foundation - unlocked at Token Generation Event (TGE) 
+* 5% Ecosystem - unlocked at TGE
 
 Note : Airdrops + node mining is for the community. While we have the overall distribution mechanism for ecosystem participants in place, we are yet to finalize a specific reward schedule for our nodes considering SHM will be a deflationary coin.
 

@@ -110,5 +110,7 @@ Unlike static state sharding where all the nodes in a shard cover the same addre
 ## What is the difference between Shardeum and other similar sharded chains?
 
 | Features | Shardeum | Harmony | Near | Elrond |
-| -------------- | -------------------- | -------------------- | -------------------- | -------------------- |
-| EVM Compatible | Yes                  | Yes                  | via Aurora           | No (WASM)            |
+| ------------------------ | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
+| EVM Compatible           | Yes                                      | Yes                                      | via Aurora                               | No (WASM)                                 |
+| Smart Contract Language  | Solidity, Vyper                          | Solidity, Vyper                          | Rust                                     | C, C++, C#, Rust                        |
+| Explorer                 | EtherScan-like                           | Custom                                   | Custom                                   | Custom                                   |

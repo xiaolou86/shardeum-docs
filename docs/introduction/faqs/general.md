@@ -114,3 +114,13 @@ Unlike static state sharding where all the nodes in a shard cover the same addre
 | EVM Compatible           | Yes                                      | Yes                                      | via Aurora                               | No (WASM)                                 |
 | Smart Contract Language  | Solidity, Vyper                          | Solidity, Vyper                          | Rust                                     | C, C++, C#, Rust                        |
 | Explorer                 | EtherScan-like                           | Custom                                   | Custom                                   | Custom                                   |
+| Tx Fees in $             | Very Low & Constant                      | 0.000001                                 | 0.00044                                  | 0.005                                     | 
+| Txs Per Second (TPS)     | 1 per node (100k nodes @ 100k nodes      | 2k per shard (8k TPS @ 4 Shards)         | 10 per shard (100k TPS @10 shards)       | 5k per shard (15k TPS @15 shards       |
+| Nodes per Shard          | 128                                      | 250                                      | 100                                      | 800                                       |
+| Latency                  | 10 Sec always for EIP2930 txs            | 10 Sec per involved shard                | 10 Sec per involved shard                | 10 Sec per involved shard              |
+| Consensus Algorithm      | PoQ + PoS                                | FBFT                                     | PBFT                                     | SPoS                                     |
+| Consensus Level          | Transaction                              | Block                                    | Block                                    | Block                                     |
+| Current Shards           | NA                                       | 4 but contracts on 1                     | 1 unsharded                              | 3 + metachain                       |
+| Sharding Type            | Dynamic                                  | Static                                   | Static                                   | Static                                   |
+| Scaling Type             | Linear TPS per node                      | Stepwise TPS per shard                   | Stepwise TPS per shard                   | Stepwise TPS per shard                   |
+| Archive Nodes            | Yes                                      | No                                       | No                                       | No                                       |

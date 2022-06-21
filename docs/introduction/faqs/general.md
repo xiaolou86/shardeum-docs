@@ -102,3 +102,8 @@ Again, all of these are WIP. This is just a peek into an overview of how the nod
 ## Will the Shardeum network work with different wallets?
 
 Any EVM based wallet will work on Shardeum. Developers can also build new Shardeum wallets as a dApp utility on the network.
+
+## What is Dynamic State Sharding?
+
+Unlike static state sharding where all the nodes in a shard cover the same address range, dynamic state sharding requires each node to hold a different address range, but there is significant overlap between the addresses covered by nodes. Although dynamic sharding is more complex to implement than static sharding, it allows for true linear scaling. Each node added to the Shardeum network immediately helps to increase the TPS, whereas with static sharding the number of nodes that must join has to be at least the number of nodes defined as the minimum shard size before another shard can be created. Only when another shard is created does the network TPS increase in a stepwise way with static sharding.
+

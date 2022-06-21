@@ -15,7 +15,7 @@ Proof of Quorum means to generate a receipt showing that a majority of the conse
 
 EVM-based languages including Solidity and Vyper.
 
-## What kind of BLS signatures does shardeum use and what is the hash function?
+## What kind of BLS signatures does Shardeum use and what is the hash function?
 
 Ed25519 and SHA256
 

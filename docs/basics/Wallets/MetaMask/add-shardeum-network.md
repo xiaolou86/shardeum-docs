@@ -19,7 +19,7 @@ sidebar_position: 3
 
 | **Field**                         	| **Alphanet**               	
 |-----------------------------------	|----------------------------
-| **Network Name**                  	| Shardeum Liberty 1.1      	
+| **Network Name**                  	| Shardeum Liberty 1.2      	
 | **New RPC URL**                   	| https://liberty10.shardeum.org/                     
 | **Chain ID**                      	| 8080                        	
 | **Currency symbol (optional)**    	| SHM                       	

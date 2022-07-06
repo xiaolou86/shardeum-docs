@@ -1,10 +1,46 @@
 ---
 slug: /release_notes
 title: Release Notes
-sidebar_position: 7
+sidebar_position: 8
 
 ---
-**Shardeum Liberty 1.0 Refresh (May 5th)**
+##  **Shardeum Liberty 1.2 (July 4th)**
+
+**Validator:**
+
+**JSON RPC:**
+
+**Explorer:**
+
+**Deploy tool:**
+
+**Known Issues:**
+
+##  **Shardeum Liberty 1.1 Release (May 25th)**
+
+**Validator:**
+
+- BLOCK related opcodes now supported with reasonable values
+    - (Shardeum does not use blocks, will update our documents on how these opcodes work now)
+- New efficient system to send data from validator to archivers
+
+**JSON RPC:**
+
+- Faster block update for better Metamask user experience
+- Performance monitoring stats
+- Request limit for transaction injection end points
+
+**Explorer:**
+
+- Fix bugs and update UI/UX for a smoother experience
+- Fast Transactions Availability on the explorer
+
+**Known Issues:**
+
+- If you speed up or cancel a transaction in metamask it will cause a double transfer.  This is because “gas bribing” is not possible in Shardeum and it gets interpreted as a second transaction.  We will have this fixed in liberty 1.1
+
+
+##  **Shardeum Liberty 1.0 Refresh (May 5th)**
 
 **Validator:**
 

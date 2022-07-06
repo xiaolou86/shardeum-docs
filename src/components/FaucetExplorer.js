@@ -35,7 +35,7 @@ export default function datePicker() {
           <h3>Custom Range</h3>
         <FaucetDataCustom timestampFrom={timestampFrom} timestampTo ={timestampTo} timeNow={timeNow} onChange={onChange}/>
 
-            <DateRangePicker onChange={onChange} value={value} minDate={new Date('2022, 5, 30')} maxDate={new Date()}/>
+            <DateRangePicker onChange={onChange} value={value} minDate={new Date('2022, 07, 04')} maxDate={new Date()}/>
         </div>
     </div>
 

@@ -3,19 +3,25 @@ title: Shardeum Liberty Opcodes
 sidebar_position: 4
 ---
 
-# Liberty 1.0 Opcodes
+# Liberty Opcodes
 
-Shardeum is EVM-based, this means most opcodes should function identically to other EVM-based networks. Shardeum Liberty 1.0 will not support any block related opcodes, this is because Shardeum is blockless. These opcodes will be re-mapped and become operational in Shardeum Liberty 1.1.
+Blocks work differently in the Shardeum because transactions are processed individually and not grouped into blocks. However, to support the existing smart contracts, which use block-related opcodes and comply with the SON RPC specifications, generating blocks at a specific interval is still required.
+
+Shardeum uses a life cycle called cycle to schedule transaction processing and many other operations. For example, a cycle can take 60 seconds, producing a cycle record for each cycle. In Shardeum, block production is tied to the cycle production rate. Shardeum decided to generate 10 blocks in each cycle. If the cycle duration is 60 seconds, a new block will be generated every 6 seconds to produce 10 blocks in each cycle.
+
+Transaction’s timestamp selects the appropriate block by deterministically mapping the timestamp to the block number. If the injected transaction does not have a timestamp, the network will determine a timestamp for the transaction and select the correct block. The block information will be fed into the EVM together with the transaction parameter.
+
+Shardeum exposes block-related public API endpoints so JSON RPC servers can use the same block information as the network.
 
 ## Block Related Opcodes
 
-| **Stack** 	| **Name**   	| **Notes**                                                                                        	|
-|-----------	|------------	|--------------------------------------------------------------------------------------------------	|
-| 40        	| BLOCKHASH  	| hash of the specific block, only valid for the 256 most recent blocks, excluding the current one 	|
-| 41        	| COINBASE   	| address of the current block's miner                                                             	|
-| 42        	| TIMESTAMP  	| current block's Unix timestamp in seconds                                                        	|
-| 43        	| NUMBER     	| current block's number                                                                           	|
-| 44        	| DIFFICULTY 	| current block's difficulty                                                                       	|
-| 45        	| GASLIMIT   	| current block's gas limit                                                                        	|
-| 46        	| CHAINID    	| Istanbul hardfork, EIP-1344: current network's chain id                                          	|
-| 48        	| BASEFEE    	| London hardfork, EIP-3198: current block's base fee                                              	|
+| **Stack** 	| **Name**   	| **Supported** 	| **Notes**                                                                                                                        	|
+|-----------	|------------	|---------------	|----------------------------------------------------------------------------------------------------------------------------------	|
+| 40        	| BLOCKHASH  	| Supported     	| Hash of the specific block, only valid for the 256 most recent blocks, excluding the current one                                 	|
+| 41        	| COINBASE   	| Supported     	| Return network account address because there is no block miner in Shardeum                                                       	|
+| 42        	| TIMESTAMP  	| Supported     	| Return network account address because there is no block miner in Shardeum                                                       	|
+| 43        	| NUMBER     	| Supported     	| Current block's number                                                                                                           	|
+| 44        	| DIFFICULTY 	| Supported     	| Current block's difficulty. Since Shardeum does not use Proof of Work for transaction consensus the difficulty value is set to 0 	|
+| 45        	| GASLIMIT   	| Supported     	| Current block's gas limit                                                                                                        	|
+| 46        	| CHAINID    	| Supported     	| Current network's chain id: 8080                                                                                                 	|
+| 48        	| BASEFEE    	| EIP-1559      	| London hardfork, EIP-3198: Current block's base fee                                                                              	|

@@ -5,9 +5,9 @@ sidebar_position: 4
 
 # Liberty Opcodes
 
-Blocks work differently in the Shardeum because transactions are processed individually and not grouped into blocks. However, to support the existing smart contracts, which use block-related opcodes and comply with the SON RPC specifications, generating blocks at a specific interval is still required.
+Blocks work differently in Shardeum because transactions are processed individually and not grouped into blocks. However, generating blocks at a specific interval is still required to support the existing smart contracts, which use block-related opcodes and comply with the JSON RPC specifications.
 
-Shardeum uses a life cycle called cycle to schedule transaction processing and many other operations. For example, a cycle can take 60 seconds, producing a cycle record for each cycle. In Shardeum, block production is tied to the cycle production rate. Shardeum decided to generate 10 blocks in each cycle. If the cycle duration is 60 seconds, a new block will be generated every 6 seconds to produce 10 blocks in each cycle.
+Shardeum uses a life cycle called cycle to schedule validator rotation and many other operations. For example, a cycle can take 60 seconds, producing a cycle record for each cycle. In Shardeum, block numbers are tied to the cycle production rate. Shardeum decided to generate 10 blocks in each cycle. If the cycle duration is 60 seconds, a new block will be generated every 6 seconds to produce 10 blocks in each cycle.
 
 Transaction’s timestamp selects the appropriate block by deterministically mapping the timestamp to the block number. If the injected transaction does not have a timestamp, the network will determine a timestamp for the transaction and select the correct block. The block information will be fed into the EVM together with the transaction parameter.
 

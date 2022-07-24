@@ -4,17 +4,9 @@ title: Release Notes
 sidebar_position: 8
 
 ---
+##  **Shardeum Liberty 1.3 (July 20th)**
+
 ##  **Shardeum Liberty 1.2 (July 4th)**
-
-**Validator:**
-
-**JSON RPC:**
-
-**Explorer:**
-
-**Deploy tool:**
-
-**Known Issues:**
 
 ##  **Shardeum Liberty 1.1 Release (May 25th)**
 

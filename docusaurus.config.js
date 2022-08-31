@@ -58,11 +58,11 @@ const config = {
      },
    },
       navbar: {
-        title: 'Shardeum',
+        title: '',
         hideOnScroll: true,
         logo: {
           alt: 'Shardeum Docs Logo',
-          src: 'img/shardeum-logo-dark.png',
+          src: '/img/shardeum_documentation.png',
         },
 
         items: [

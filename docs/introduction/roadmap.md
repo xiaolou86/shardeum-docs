@@ -35,6 +35,8 @@ sidebar_position: 2
 
 - Bug Bounty
 
+## Q4 2022
+
 ### Betanet Phase 1
 
 - Community Can Operate Nodes
@@ -45,7 +47,7 @@ sidebar_position: 2
 - 1280 minimum node sharded network. Shard size of 128 nodes.
 - Aiming for 200 TPS
 
-## Q4 2022
+## Q1 2023
 
 - Shardeum Mainnet Launch
 - SHM Issued

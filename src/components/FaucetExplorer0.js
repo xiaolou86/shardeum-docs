@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import DateRangePicker from '@wojtekmaj/react-daterange-picker';
-import FaucetDataCustom from '@site/src/components/FaucetDataCustom.js';
-import FaucetDataDay from '@site/src/components/FaucetDataDay.js';
-import FaucetDataTotal from '@site/src/components/FaucetDataTotal.js';
+import FaucetDataCustom from '@site/src/components/FaucetDataCustom0.js';
+import FaucetDataDay from '@site/src/components/FaucetDataDay0.js';
+import FaucetDataTotal from '@site/src/components/FaucetDataTotal0.js';
 import timestamp from 'unix-timestamp';
 import dayjs from 'dayjs';
 
@@ -35,7 +35,7 @@ export default function datePicker() {
           <h3>Custom Range</h3>
         <FaucetDataCustom timestampFrom={timestampFrom} timestampTo ={timestampTo} timeNow={timeNow} onChange={onChange}/>
 
-            <DateRangePicker onChange={onChange} value={value} minDate={new Date('2022, 09, 07')} maxDate={new Date()}/>
+            <DateRangePicker onChange={onChange} value={value} minDate={new Date('2022, 09, 03')} maxDate={new Date()}/>
         </div>
     </div>
 

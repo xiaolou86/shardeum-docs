@@ -504,4 +504,13 @@ Congrats! You just deployed a NFT smart contract to the Shardeum Liberty.
 
 ## Video Tutorial
 
-...Coming Soon
+<iframe id="ytplayer" type="text/html"
+  class="video"
+  src="https://www.youtube.com/embed/XI6vn2RpSUA"
+  allowFullScreen="allowFullScreen"
+  mozallowfullscreen="mozallowfullscreen"
+  msallowfullscreen="msallowfullscreen"
+  oallowfullscreen="oallowfullscreen"
+  webkitallowfullscreen="webkitallowfullscreen"
+  frameBorder="0">
+  </iframe>

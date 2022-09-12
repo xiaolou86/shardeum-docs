@@ -4,6 +4,10 @@ title: Release Notes
 sidebar_position: 8
 
 ---
+##  **Shardeum Liberty 2.0 (September 9th)**
+
+##  **Shardeum Liberty 1.4 (September 7th)**
+
 ##  **Shardeum Liberty 1.3 (July 20th)**
 
 ##  **Shardeum Liberty 1.2 (July 4th)**

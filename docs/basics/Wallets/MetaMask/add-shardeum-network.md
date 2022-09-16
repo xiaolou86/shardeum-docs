@@ -33,7 +33,7 @@ sidebar_position: 3
 |-----------------------------------	|----------------------------
 | **Network Name**                  	| Shardeum Liberty 2.0       	
 | **New RPC URL**                   	| https://liberty20.shardeum.org/                     
-| **Chain ID**                      	| 8080                        	
+| **Chain ID**                      	| 8081                        	
 | **Currency symbol (optional)**    	| SHM                       	
 | **Block Explorer URL (optional)** 	| https://explorer.liberty20.shardeum.org/
 

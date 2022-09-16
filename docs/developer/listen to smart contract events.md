@@ -2,31 +2,30 @@
 title: Listen To Smart Contract Events
 sidebar_position: 6
 ---
-
 ## What are smart contract events?
 
 Smart contract events are sensors to let you know when something in a smart contract has happened in real time.
 
 ## Where are events used in smart contract applications?
 
-### Frontend
+## Frontend
 
 If you swap tokens on a website using a AMM DEX smart contract, the token balances will know when to be updated on the frontend almost instantly using events.
 
-### Backend
+## Backend
 
 Trading bots can listen to AMM DEX swap contracts events and find potential arbitrage opportunities.
 IoT robotics applications in the physical world connected to a smart contract can be controlled with events.
-Chainlink orracle nodes also depend on smart contract events to know when to communicate between the real world and blockchains.
+Chainlink oracle nodes also depend on smart contract events to know when to communicate between the real world and blockchains.
 
 ## How to Listen To Smart Contract Events On Shardeum?
 
-### Websockets
+## Websockets
 
 We are planning to add websocket RPC URL support in the future to subscribe to smart contract events.
 This way, users will be able to save API calls instead of polling for new data every new block/bundle/cycle.
 
-### Polling
+## Polling
 
 Reading smart contract events can also be done using Shardeum cycles (we listen to blocks/bundles to do this).
 
@@ -34,11 +33,12 @@ Reading smart contract events can also be done using Shardeum cycles (we listen 
 
 1. To get the current cycle: get latest block, then divide by 10, and round down.
 
-## NOTE: WORK IN PROGRESS
-
 2. Build the JSON URL with:
 
-Example (at startCycle = endCycle = 49):
+Example with:
+
+        startCycle = endCycle = 49
+        address = 0x23FF65f07cAbAd1643440a0114d71260F2Bb6352
 
 https://explorer.liberty10.shardeum.org/api/transaction?startCycle=49&endCycle=49&address=0x23FF65f07cAbAd1643440a0114d71260F2Bb6352
 
@@ -54,9 +54,9 @@ https://explorer.liberty10.shardeum.org/api/transaction?startCycle=49&endCycle=4
     &address=addressToListenTo
     &page=1
 
-## Example script (NOTE: WORK IN PROGRESS):
+## Example script:
 
-Example in Python :
+Example in Python (work in progress):
 
       from web3 import Web3
       import math
@@ -78,9 +78,3 @@ Example in Python :
           cycle =  (math.floor(web3.eth.blockNumber/10))  #Divide current bundle [block] by 10, then round down to get cycle.
           print(cycle)
           time.sleep(60)   #1 cycle roughly every 60 seconds based on explorer: https://explorer.liberty20.shardeum.org/cycle
-
-
-
-
-
-___

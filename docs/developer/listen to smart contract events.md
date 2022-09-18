@@ -4,7 +4,11 @@ sidebar_position: 6
 ---
 ## What are smart contract events?
 
-Smart contract events are sensors to let you know when something in a smart contract has happened in real time.
+Smart contract events broadcast new data coming from a contract.
+
+## Why are smart contract events important?
+
+Smart contract event listening notifies applications and users in real time that something new has happened in a smart contract.
 
 ## Where are events used in smart contract applications?
 
@@ -18,7 +22,7 @@ Trading bots can listen to AMM DEX swap contracts events and find potential arbi
 IoT robotics applications in the physical world connected to a smart contract can be controlled with events.
 Chainlink oracle nodes also depend on smart contract events to know when to communicate between the real world and blockchains.
 
-## How to Listen To Smart Contract Events On Shardeum?
+## How to listen To smart contract events on Shardeum?
 
 ## Websockets
 

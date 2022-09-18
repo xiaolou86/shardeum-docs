@@ -62,7 +62,7 @@ https://explorer.liberty10.shardeum.org/api/transaction?startCycle=49&endCycle=4
     &address=addressToListenTo
     &page=1
 
-## Python Examples:
+## Event Listening With Polling Examples:
 
 Reading transaction events from the null address (address(0)) from cycle 0 to 1000:
 

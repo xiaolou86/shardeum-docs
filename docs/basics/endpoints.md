@@ -5,12 +5,12 @@ sidebar_position: 2
 
 # Network Endpoints
 
-## Liberty 1.4
+## Liberty 1.5
 
 | **Field**                         	| **Alphanet**               	
 |-----------------------------------	|----------------------------
-| **Network Name**                  	| Shardeum Liberty 1.4       	
-| **New RPC URL**                   	| https://liberty10.shardeum.org/                     
+| **Network Name**                  	| Shardeum Liberty 1.5      	
+| **New RPC URL**                   	| https://liberty10.shardeum.org/                   
 | **Chain ID**                      	| 8080                        	
 | **Currency symbol (optional)**    	| SHM                       	
 | **Block Explorer URL (optional)** 	| https://explorer.liberty10.shardeum.org/

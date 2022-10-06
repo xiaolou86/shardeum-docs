@@ -86,7 +86,7 @@ const config = {
           },
 
           {
-            href: '/basics/Faucet/useFaucet',
+            href: '/basics/claim',
             label: 'Claim 100 Testnet SHM',
             position: 'left',
             className: 'navbar_item_button',

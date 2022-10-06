@@ -1,6 +1,6 @@
 ---
 title: Claim 100 Liberty SHM
-sidebar_position: 1
+sidebar_position: 3
 image: /img/claim_9.jpeg
 ---
 

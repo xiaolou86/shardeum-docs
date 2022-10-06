@@ -1,6 +1,6 @@
 ---
 title: Network Endpoints
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Network Endpoints

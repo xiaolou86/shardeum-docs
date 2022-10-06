@@ -1,6 +1,6 @@
 ---
 title: Ethereum Virtual Machine
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 ## What is the EVM?

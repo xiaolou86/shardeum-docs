@@ -6,7 +6,7 @@ sidebar_position: 7
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-## How do smart contracts store data?
+## How smart contracts store data
 
 Smart contracts have storage slots to store state data.
 Each storage slot is 32 bytes.
@@ -35,7 +35,7 @@ Note: a uint variable is 256 bits by default in Solidity, equivalent to 32 bytes
   </TabItem>
 </Tabs>
 
-## What EVM opcodes are used to read and write data in a contract?
+## EVM storage opcodes
 
 Storage (stored, expensive):
 
@@ -79,7 +79,7 @@ Here is a smart contract which uses Assembly (Yul in Solidity) to access these o
 </Tabs>
 
 
-## What is a good strategy to compress data in storage slots?
+##  How to compress data in storage slots
 
 -If you are using a variable that never changes, make the variable immutable so that it doesn't use a storage slot.
 
@@ -107,7 +107,7 @@ Wrong:
 The more storage slots you want to write to, the more gas you need to pay.
 Storing large files like high resolution images is very expensive on chain.
 
-## What are some decentralized storage options for large data?
+## Decentralized storage options for large data
 
 IPFS and Filecoin together are used for decentralized storage for large data files.
 

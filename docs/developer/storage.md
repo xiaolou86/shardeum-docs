@@ -109,7 +109,23 @@ Storing large files like high resolution images is very expensive on chain.
 
 ## What are some decentralized storage options for large data?
 
-IPFS and Filecoin together are useful for storing large data.
+IPFS and Filecoin together are used for decentralized storage for large data files.
+
+IPFS (InterPlanetary File System) is a file sharing protocol.
+
+On IPFS, data is accessed based on a:
+
+      CID (Content Identifier)
+
+In contrast, HTTPS data is accessed based on a location with a:
+
+      Network IP Address (OSI Layer 3)
+      Session Port (OSI Layer 5)
+
+Storage space is competitive on IPFS. You can pin your data and have others pin your data.
+However, if all pins go down for that data, that data will not be stored anymore on IPFS.
+
+Filecoin is used to keep IPFS content active for simplicity.
 
 ## How to upload to IPFS?
 
@@ -123,9 +139,14 @@ Easily read from IPFS using this web browser tool:
 
 https://ipfsbrowser.com/
 
-## How to mint an NFT on Shardeum using IPFS and Filecoin storage?
+## Mint an NFT on Shardeum using IPFS and Filecoin
 
-Mint ERC-721 using an imported OpenZeppelin library:
+Shardeum logo hosted on IPFS and Filecoin using Fleek:
+
+<img src="https://ipfs.fleek.co/ipfs/bafybeib6zcl5v5ojxkvmxnvpqrypq5yakmu2fd6y6wc3xo4n66pjelu7yq"
+alt="shardeumLogo" />
+
+Mint NFT with Shardeum logo using ERC-721 imported OpenZeppelin library:
 
 <Tabs>
   <TabItem value="solidity" label="Solidity" default>

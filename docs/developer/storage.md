@@ -39,7 +39,7 @@ Note: a uint variable is 256 bits by default in Solidity, equivalent to 32 bytes
 
 Storage (stored, expensive):
 
--SSTORE: write data to storage slot 20000 gas)
+-SSTORE: write data to storage slot (20000 gas)
 
 -SLOAD:  read data from a storage slot (800 gas)
 

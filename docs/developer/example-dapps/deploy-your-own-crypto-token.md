@@ -1,9 +1,9 @@
 ---
-title: Mint Your Own Crypto Token (ERC20)
+title: ERC-20
 sidebar_position: 1
 ---
 
-# Mint Your Own Crypto Token (ERC20)
+# Deploy Your Own Crypto Token (ERC20)
 
 ## What is ERC-20 Token?
 

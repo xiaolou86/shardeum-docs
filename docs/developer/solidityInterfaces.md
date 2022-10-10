@@ -6,7 +6,7 @@ sidebar_position: 5
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-## :red_circle: Liberty 2.0 Multicall Contracts  :red_circle:
+## Liberty 2.0 Multicall Contracts
 
 You will need to use the EIP-2930 accessList to multicall contracts defined by interfaces on Liberty 2.0.
 Read the "EIP-2930 Transactions" guide first:

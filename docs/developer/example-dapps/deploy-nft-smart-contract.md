@@ -1,5 +1,5 @@
 ---
-title: Deploy NFT Smart Contract (ERC721)
+title: ERC-721
 sidebar_position: 2
 ---
 

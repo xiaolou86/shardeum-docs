@@ -1,6 +1,6 @@
 ---
-title: Explorer
-sidebar_position: 2
+title: Shardeum Explorer
+sidebar_position: 4
 ---
 
 # Explorer

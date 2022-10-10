@@ -86,7 +86,7 @@ const config = {
           },
 
           {
-            href: '/faucet/claim',
+            href: '/basics/Faucet/claim',
             label: 'Claim 100 Testnet SHM',
             position: 'left',
             className: 'navbar_item_button',
@@ -104,7 +104,7 @@ const config = {
                 to: 'https://shardeum.org',
               },
               {
-                href: '/faucet/claim',
+                href: '/basics/Faucet/claim',
                 label: 'Claim 100 Testnet SHM',
                 position: 'left',
 

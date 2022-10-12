@@ -102,7 +102,7 @@ contract testToken is ERC20 {
 ## Configuring Hardhat For Shardeum Liberty
 
  - Go to hardhat-config.js (located in root directory)
- - Update with Shardeum Liberty details ([available here](/basics/endpoints))
+ - Update with Shardeum Liberty details ([available here](/basics/Network/endpoints))
 
 ```
 require("@nomiclabs/hardhat-waffle");

@@ -6,7 +6,7 @@ image: /img/claim_9.jpeg
 
 # Claim 100 Liberty SHM
 
-1. After adding the Shardeum Liberty network to popular wallets such as MetaMask ([guide here](/basics/Wallets/MetaMask/add-shardeum-network)), you can claim 100 testnet SHM from Shardeum Liberty faucet. The SHM can then be used to deploy smart contracts and build dApps on Liberty.
+1. After adding the Shardeum Liberty network to popular wallets such as MetaMask ([guide here](/wallets/MetaMask/add-shardeum-network)), you can claim 100 testnet SHM from Shardeum Liberty faucet. The SHM can then be used to deploy smart contracts and build dApps on Liberty.
 
 2. Visit the Shardeum Liberty faucet:
 

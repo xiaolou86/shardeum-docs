@@ -146,7 +146,7 @@ Shardeum logo hosted on IPFS and Filecoin using Fleek:
 <img src="https://ipfs.fleek.co/ipfs/bafybeib6zcl5v5ojxkvmxnvpqrypq5yakmu2fd6y6wc3xo4n66pjelu7yq"
 alt="shardeumLogo" />
 
-Mint NFT with Shardeum logo using ERC-721 imported OpenZeppelin library
+Mint NFT with Shardeum logo using ERC-721 imported OpenZeppelin library.
 
 Note: put the IPFS CID:
 

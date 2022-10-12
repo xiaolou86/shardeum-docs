@@ -95,7 +95,7 @@ module.exports = function(deployer) {
 ## Configuring Truffle For Shardeum Liberty
 
 - Go to truffle-config.js (located in root directory)
-- Update with Shardeum Liberty details ([available here](/basics/endpoints))
+- Update with Shardeum Liberty details ([available here](/basics/Network/endpoints))
 
 ```
 const HDWalletProvider = require('@truffle/hdwallet-provider');

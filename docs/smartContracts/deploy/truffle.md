@@ -1,6 +1,6 @@
 ---
-title: Using Truffle
-sidebar_position: 2
+title: Truffle
+sidebar_position: 3
 ---
 
 Truffle is a world-class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier.

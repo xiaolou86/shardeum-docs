@@ -1,5 +1,5 @@
 ---
-title: Listen To Smart Contract Events
+title: Polling Cycles
 sidebar_position: 6
 ---
 

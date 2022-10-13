@@ -1,6 +1,6 @@
 ---
-title: Storage
-sidebar_position: 7
+title: EVM Storage
+sidebar_position: 1
 ---
 
 import Tabs from '@theme/Tabs';
@@ -106,74 +106,4 @@ Wrong:
 
 The more storage slots you want to write to, the more gas you need to pay.
 Storing large files like high resolution images is very expensive on chain.
-
-## Decentralized storage options for large data
-
-IPFS and Filecoin together are used for decentralized storage for large data files.
-
-IPFS (InterPlanetary File System) is a file sharing protocol.
-
-On IPFS, data is accessed based on a:
-
-      CID (Content Identifier)
-
-In contrast, HTTPS data is accessed based on a location with a:
-
-      Network IP Address (OSI Layer 3)
-      Session Port (OSI Layer 5)
-
-Storage space is competitive on IPFS. You can pin your data and have others pin your data.
-However, if all pins go down for that data, that data will not be stored anymore on IPFS.
-
-Filecoin is used to keep IPFS content active for simplicity.
-
-## How to upload to IPFS?
-
-Easily write to IPFS using Fleek:
-
-https://fleek.co/
-
-## How to download from IPFS?
-
-Easily read from IPFS using this web browser tool:
-
-https://ipfsbrowser.com/
-
-## Mint an NFT on Shardeum using IPFS and Filecoin
-
-Shardeum logo hosted on IPFS and Filecoin using Fleek:
-
-<img src="https://ipfs.fleek.co/ipfs/bafybeib6zcl5v5ojxkvmxnvpqrypq5yakmu2fd6y6wc3xo4n66pjelu7yq"
-alt="shardeumLogo" />
-
-Mint NFT with Shardeum logo using ERC-721 imported OpenZeppelin library.
-
-Note: put the IPFS CID:
-
-    bafybeib6zcl5v5ojxkvmxnvpqrypq5yakmu2fd6y6wc3xo4n66pjelu7yq
-
-instead of the IPFS gateway URL:
-
-    https://ipfs.fleek.co/ipfs/bafybeib6zcl5v5ojxkvmxnvpqrypq5yakmu2fd6y6wc3xo4n66pjelu7yq
-
-since gateways can go down.
-
-<Tabs>
-  <TabItem value="solidity" label="Solidity" default>
-
-    // SPDX-License-Identifier: MIT
-    pragma solidity 0.8.17;
-
-    import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-
-    contract ShardeumLogoNFT is ERC721URIStorage {
-
-      constructor() ERC721 ("shardeumLogo", "SL"){
-        _safeMint(msg.sender, 1);
-        _setTokenURI(1, "bafybeib6zcl5v5ojxkvmxnvpqrypq5yakmu2fd6y6wc3xo4n66pjelu7yq"); //IPFS CID
-      }
-
-    }
-
-  </TabItem>
-</Tabs>
+Decentralized storage alternatives like IPFS and Filecoin solve this problem.

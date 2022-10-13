@@ -1,6 +1,6 @@
 ---
-title: EIP-2930 Transactions
-sidebar_position: 5
+title: Multicall Contract
+sidebar_position: 1
 ---
 
 import Tabs from '@theme/Tabs';

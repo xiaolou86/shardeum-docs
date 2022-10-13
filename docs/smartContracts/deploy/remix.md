@@ -1,5 +1,5 @@
 ---
-title: Using Remix
+title: Remix IDE
 sidebar_position: 1
 ---
 

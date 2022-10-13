@@ -1,6 +1,6 @@
 ---
-title: Using Hardhat
-sidebar_position: 3
+title: Hardhat
+sidebar_position: 2
 ---
 
 Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. It helps developers manage and automate the recurring tasks inherent to the process of building smart contracts and dApps and easily introduces more functionality around this workflow. This means compiling, running and testing smart contracts at the very core.

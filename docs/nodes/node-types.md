@@ -1,6 +1,6 @@
 ---
 title: Node Types
-sidebar_position: 5
+sidebar_position: 1
 ---
 
 # Node Types
@@ -11,10 +11,10 @@ These nodes validate the transactions in the network by participating in the con
 
 ## Archive Nodes
 
-Archive nodes maintain the entire Transaction history. Archive nodes may or may not have to stake SHM, but they will earn a portion of the network reward to motivate and incentivize for storing historical data.
+Archive nodes maintain the entire transaction history. Archive nodes may or may not have to stake SHM, but they will earn a portion of the network reward to motivate and incentivize for storing historical data.
 
 ## Standby Nodes
 
-These are Validator nodes standing by in the network and not currently participating in consensus. Standby nodes help scale the Shardeum network quicker in times of traffic spikes. They may or may not need to stake SHM, but they may also earn a portion of the network rewards.
+These are validator nodes standing by in the network and not currently participating in consensus. Standby nodes help scale the Shardeum network quicker in times of traffic spikes. They may or may not need to stake SHM, but they may also earn a portion of the network rewards.
 
 **Note** : Network node reward schedule is work in progress in collaboration with the community and will be finalized/announced in the next few months.

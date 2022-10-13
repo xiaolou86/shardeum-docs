@@ -9,9 +9,6 @@ import TabItem from '@theme/TabItem';
 ## Liberty 2.0 Multicall Contracts
 
 You will need to use the EIP-2930 accessList to multicall contracts defined by interfaces on Liberty 2.0.
-Read the "EIP-2930 Transactions" guide first:
-
-https://docs.shardeum.org/developer/eip-2930
 
 ## What are Solidity interfaces?
 

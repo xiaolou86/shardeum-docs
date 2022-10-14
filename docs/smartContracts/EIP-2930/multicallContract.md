@@ -14,8 +14,8 @@ https://eips.ethereum.org/EIPS/eip-2930
 
 ## Why is EIP-2930 important?
 
-Shardeum Liberty 1.4 does not require EIP-2930 because the network is not sharded.
-You can optionally use EIP-2930 to save gas on Shardeum Liberty 1.4.
+Shardeum Liberty 1.5 does not require EIP-2930 because the network is not sharded.
+You can optionally use EIP-2930 to save gas on Shardeum Liberty 1.5.
 
 Shardeum Liberty 2.0 requires EIP-2930 in order to communicate with addresses that exist on different shards.
 Note: some addresses with the same prefix will be on same shard, so in that scenario EIP-2930 is optional.

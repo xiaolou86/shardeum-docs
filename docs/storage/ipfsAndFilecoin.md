@@ -68,8 +68,8 @@ since gateways can go down.
     contract ShardeumLogoNFT is ERC721URIStorage {
 
       constructor() ERC721 ("shardeumLogo", "SL"){
-        _safeMint(msg.sender, 1);
-        _setTokenURI(1, "bafybeib6zcl5v5ojxkvmxnvpqrypq5yakmu2fd6y6wc3xo4n66pjelu7yq"); //IPFS CID
+        _safeMint(msg.sender, 1); //Mint NFT with tokenId = 1.
+        _setTokenURI(1, "bafybeib6zcl5v5ojxkvmxnvpqrypq5yakmu2fd6y6wc3xo4n66pjelu7yq"); //For tokenId = 1, set IPFS CID for image data.
       }
 
     }

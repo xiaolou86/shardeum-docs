@@ -6,10 +6,9 @@ slug: /
 
 # What is Shardeum?
 
-Shardeum is the world's first layer 1 blockchain that solves the scalability trilemma. Shardeum is an EVM-based, linearly scalable smart contract platform that provides low gas fees forever while maintaining true decentralization and solid security. The network aims to onboard billions of daily users and numerous dApps to Web 3.0 in the future. Shardeum’s smart contract platforms are deployed in developer and user-friendly programming languages - Solidity & Vyper.
+Shardeum is an EVM based L1 that uses dynamic state sharding to achieve linearly scalability. This means Shardeum can increase its TPS capacity with each validator added to the network to retain low fees forever. In many state sharded blockchains, developers face challenges as they don't retain atomic composability across shards. However, Shardeum uses a novel architecture where atomic composability is retained. Shardeum provides the highest throughput capacity of any EVM based L1 without sacrificing on decentralization.
 
-Linear scalability was recently demonstrated to a live audience ahead of the project’s alphanet launch aka ‘Shardeum Liberty’. Linear scalability enables Shardeum to increase throughput (TPS) as more nodes join the network through ‘dynamic state sharding’, which will be explained shortly. Linear scalability ensures that the gas fees on the network remain very low forever, regardless of how many people use it in the future. Further, it helps the network scale horizontally and achieves high decentralization at any given point in time.
-
+For developers, the experience of building on Shardeum is the same as other EVM chains, you can deploy contracts in Solidity or Vyper and there aren't any special considerations relative to sharding. You don't need to consider which shard you deploy your contract to as the network retains atomic composability with all applications. However, developers benefit from linear scaling on Shardeum as you no longer have to concern losing users due to rising gas fees. On Shardeum you can build truly decentralized applications that aren't limited by throughput bottlenecks.
 
 <iframe id="ytplayer" type="text/html"
   class="video" src="https://drive.google.com/file/d/1mSSuEuqU1JnKAXU8Omy-WpBEV5Q_Uf08/preview" width="100%" height="" allow="autoplay"></iframe>

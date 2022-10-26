@@ -1,7 +1,6 @@
 ---
 title: What is Shardeum?
 sidebar_position: 1
-slug: /
 ---
 
 # What is Shardeum?

@@ -67,6 +67,10 @@ Since Shardeum is EVM compatible, you can use the following frameworks to deploy
 
 [Truffle](/SmartContracts/Deploy/Truffle)
 
+To deploy contracts at the same address cross chain:
+
+[Same Address Cross Chain](/SmartContracts/Deploy/SameAddress)
+
 ## What tokens can I deploy to Shardeum?
 
 All EVM based token standards are supported on Shardeum (since Shardeum is EVM compatible).
